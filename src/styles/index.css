@@ -10,3 +10,26 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+ul li{
+    
+        width: 400px;
+        margin: 0 auto; /* Centrar horizontalmente */
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-family: sans-serif;
+        list-style: none;
+}
+
+input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+width: 50%;
+}
+   
+  input:focus {
+    border-color: #888; 
+    outline: none; 
+}
